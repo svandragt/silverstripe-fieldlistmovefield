@@ -1,0 +1,25 @@
+{
+   "name":"svandragt/silverstripe-fieldlistmovefield",
+   "description":"Add helper functions to reorder fields in a FieldList",
+   "type":"silverstripe-module",
+   "keywords":[
+	  "silverstripe",
+	  "fieldlist",
+	  "order",
+   ],
+   "license":"BSD-3-Clause",
+   "authors":[
+	  {
+		 "name":"Sander van Dragt",
+		 "homepage":"http://vandragt.com",
+		 "role":"Developer"
+	  }
+   ],
+   "require":{
+	  "silverstripe/framework":"~3.0",
+	  "composer/installers":"*"
+   },
+   "support":{
+	  "issues":"https://github.com/svandragt/silverstripe-fieldlistmovefield/issues"
+   }
+}
