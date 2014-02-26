@@ -14,7 +14,7 @@ class FieldListMoveFieldExtension extends Extension {
 		$this->owner->insertBefore($field,$destination);
 	}
 
-	public function fieldFromName($source) {
+	private function fieldFromName($source) {
 		if (is_object($source)) {
 			$field = $source;
 			$field_name = $field->Name;
