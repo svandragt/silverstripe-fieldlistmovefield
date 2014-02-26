@@ -3,4 +3,4 @@ Name: fieldlistmovefield
 ---
 FieldList:
   extensions:
-	- FieldListMoveFieldExtension
+    - FieldListMoveFieldExtension
