@@ -24,4 +24,6 @@ For the source field parameter (first argument), you can pass in a field or a fi
 
 `composer require "svandragt/silverstripe-fieldlistmovefield:*"`
 
+The code is straightforward so should work on any 3.x installation.
+
 
