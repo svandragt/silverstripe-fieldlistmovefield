@@ -19,3 +19,9 @@ public function getCMSFields() {
 }
 ```
 For the source field parameter (first argument), you can pass in a field or a field name.
+
+## Installation
+
+`composer require "svandragt/silverstripe-fieldlistmovefield:*"`
+
+
