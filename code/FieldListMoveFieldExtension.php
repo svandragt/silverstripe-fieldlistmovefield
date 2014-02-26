@@ -21,7 +21,10 @@ class FieldListMoveFieldExtension extends Extension {
 		}
 		else {
 			$field_name = $source;
-			$field = $this->owner->dataFieldByName($source);
+			$field = $this->owner->fieldByName($source);
+			if (empty($field)) {
+				$field = $this->owner->dataFieldByName($source);
+			}
 		}
 		return array($field, $field_name);
 	}
