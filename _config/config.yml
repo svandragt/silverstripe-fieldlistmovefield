@@ -1,0 +1,6 @@
+---
+Name: fieldlistmovefield
+---
+FieldList:
+  extensions:
+	- FieldListMoveFieldExtension
