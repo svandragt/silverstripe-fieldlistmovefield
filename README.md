@@ -18,4 +18,4 @@ public function getCMSFields() {
 	return $fields;
 }
 ```
-For the source field parameter, you can pass in a field or a field name.
+For the source field parameter (first argument), you can pass in a field or a field name.
